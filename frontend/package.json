@@ -1,0 +1,70 @@
+{
+  "name": "vue-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-components": "^1.9.0",
+    "aws-amplify": "^4.3.2",
+    "core-js": "^3.6.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2",
+    "v-mask": "^2.2.4",
+    "vue": "^2.7.16",
+    "vue-html-to-paper": "^1.4.4",
+    "vue-qrcode": "^0.4.0",
+    "vue-qrcode-reader": "^3.0.2",
+    "vue-router": "^3.5.2",
+    "vue-the-mask": "^0.11.1",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@aws-amplify/cli": "^12.10.3",
+    "@mdi/font": "^5.9.55",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.14",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.1.0",
+    "eslint-plugin-vuetify": "^1.1.0",
+    "prettier": "^2.2.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/base",
+      "plugin:vuetify/base",
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
